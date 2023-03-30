@@ -29,6 +29,8 @@ The main model could not achieve the target model performance which is 75%. The 
     * **Attempt #1**
       * Number of epoches was increased to 150 from 100.     
       * A new hidden layer was added with 60 neurons.
+      * Binning structure of "CLASSIFICATION" column has changed.
+      * More neurons were added to hidden layers.
       
       Results : 73% accuracy (same) / 58% loss (increased)
       
