@@ -44,9 +44,9 @@ The main model could not achieve the target model performance which is 75%. The 
     * **Attempt #3**
       * Two more dense layers were added.
      
-    Results : 73% accuracy (same) / 58% loss (increased)
+    Results : 73.01% accuracy (better) / 55.82% loss (better)
 
 
 #### Summary: 
 
-None of the optimization attempts had achieved increase in accuracy, instead they were cause to increase in loss. Since there are a lot of categorical data in our dataset, may be trying decision trees or random forrest methods to get better results.
+None of the optimization attempts had achieved noticable increase in accuracy, instead some of them cause to increase in loss. Since there are a lot of categorical data in our dataset, may be trying decision trees or random forrest methods to get better results. Overally the attempt #3 had a little bit of positive influence on the model's performance.
