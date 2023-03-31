@@ -11,6 +11,7 @@ In this analysis we're using real world dataset containing data from more than 3
 
 * The "IS_SUCCESSFUL" column is target of this model.  
 * During optimization attempts, different feature sets were used to understand their effects on the loss and accuracy.
+* For all optimization attempts "EIN" and "NAME" variables were removed.
 
 ##### Compiling, Training and Evaluating the Model
 
