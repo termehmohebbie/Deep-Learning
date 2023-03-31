@@ -39,7 +39,7 @@ The main model could not achieve the target model performance which is 75%. The 
       * Binning structures of 'APPLICATION_TYPE' and 'CLASSIFICATION' variables have been changed.
       * A new hidden layer was added with 60 neurons. 
       
-      Results : 73% accuracy (same) / 58% loss (increased)
+      Results : 72.60% accuracy (worse) / 57.90% loss (worse)
 
     * **Attempt #3**
       * Two more dense layers were added.
