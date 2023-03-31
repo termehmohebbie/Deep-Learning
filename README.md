@@ -32,7 +32,7 @@ The main model could not achieve the target model performance which is 75%. The 
       * Binning structure of "CLASSIFICATION" column has changed.
       * More neurons were added to hidden layers.
       
-      Results : 73% accuracy (same) / 58% loss (increased)
+      Results : 72.44% accuracy (worse) / 59.79% loss (worse)
       
     * **Attempt #2**
       * Two more variables were dropped ('STATUS' and 'SPECIAL_CONSIDERATION'). 
