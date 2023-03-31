@@ -3,7 +3,7 @@
 
 #### Overview of the analysis: 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this analysis we're using real world dataset containing data from more than 35000 organizations, funded by Alphabet Soup in the past. With the help of this data, the aim of the analysis is to create a deep learning neural network model to predict the success/failure of the future funds.
+&nbsp;&nbsp;&nbsp;&nbsp;In this analysis we're using real world dataset containing data from more than 35000 organizations, funded by Alphabet Soup in the past. With the help of this data, the aim of the analysis is to create a deep learning neural network model to predict the success/failure of the future funds.
 
 #### Results: 
 
@@ -50,4 +50,4 @@ The main model could not achieve the target model performance which is 75%. The 
 
 #### Summary: 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;None of the optimization attempts had achieved noticable increase in accuracy, instead some of them cause to increase in loss. Since there are a lot of categorical data in our dataset, may be trying decision trees or random forrest methods to get better results. Overally the attempt #3 had a little bit of positive influence on the model's performance.
+&nbsp;&nbsp;&nbsp;&nbsp;None of the optimization attempts had achieved noticable increase in accuracy, instead some of them cause to increase in loss. Since there are a lot of categorical data in our dataset, may be trying decision trees or random forrest methods to get better results. Overally the attempt #3 had a little bit of positive influence on the model's performance.
