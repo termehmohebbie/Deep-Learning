@@ -20,7 +20,7 @@ The main model has two hidden layers with 80 and 30 neurons respectively. The hi
 
 * Were you able to achieve the target model performance?
 
-The main model could not achieve the target model performance which is 75%. The accuracy of this model was around 73% and the loss was 56%.
+The main model could not achieve the target model performance which is 75%. The accuracy of this model was around 72.76% and the loss was 55.85%.
 
 * What steps did you take in your attempts to increase model performance?
 
