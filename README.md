@@ -9,9 +9,9 @@
 
 ### Data Preprocessing
 
-* The "IS_SUCCESSFUL" column is target of this model.  
+* The 'IS_SUCCESSFUL' column is target of this model.  
 * During optimization attempts, different feature sets were used to understand their effects on the loss and accuracy.
-* For all optimization attempts "EIN" and "NAME" variables were removed.
+* For all optimization attempts 'EIN' and 'NAME' variables were removed except for the last attempt.
 
 ### Compiling, Training and Evaluating the Model
 
@@ -30,7 +30,7 @@ The main model could not achieve the target model performance which is 75%. The 
     * **Attempt #1**
       * Number of epoches was increased to 150 from 100.     
       * A new hidden layer was added with 60 neurons.
-      * Binning structure of "CLASSIFICATION" column has changed.
+      * Binning structure of 'CLASSIFICATION' column has changed.
       * More neurons were added to hidden layers.
       
       Results : 72.44% accuracy (worse) / 59.79% loss (worse)
@@ -46,8 +46,15 @@ The main model could not achieve the target model performance which is 75%. The 
       * Two more dense layers were added.
      
     Results : 73.01% accuracy (better) / 55.82% loss (better)
+    
+    * **Attempt #4**
+      * 'NAME' column was kept.
+      * 6 more dense layers were added.
+      * Binning structures of 'APPLICATION_TYPE' and 'CLASSIFICATION' and 'NAME' and variables have been changed.
+     
+    Results : 78.26% accuracy (best) / 53.68% loss (better)
 
 
 ## Summary
 
-&nbsp;&nbsp;&nbsp;&nbsp;None of the optimization attempts had achieved noticable increase in accuracy, instead some of them cause to increase in loss. Since there are a lot of categorical data in our dataset, may be trying decision trees or random forrest methods to get better results. Overally the attempt #3 had a little bit of positive influence on the model's performance.
+&nbsp;&nbsp;&nbsp;&nbsp;None of the optimization attempts had achieved noticable increase in accuracy, instead some of them cause to increase in loss. Since there are a lot of categorical data in our dataset, may be trying decision trees or random forrest methods to get better results. Overally the attempt #3 had a little bit of positive influence on the model's performance. In the last attempt the 'NAME' column wasn't removed and it improved the accuracy significantly eventhough I'm not sure it's a right thing to do!!! 
